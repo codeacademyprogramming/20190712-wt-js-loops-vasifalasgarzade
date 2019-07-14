@@ -1,0 +1,129 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .section-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        height: 64px;
+    }
+    
+    .nav-l a img {
+        border-right: 1px solid rgba(128, 128, 128, 0.144);
+        padding-right: 10px;
+    }
+    
+    .nav-r ul {
+        list-style-type: none;
+        display: flex;
+        padding: 15px;
+        font-size: 21px;
+        transition: all 1s;
+    }
+    
+    .nav-r ul li i {
+        padding: 5px;
+    }
+    
+    .nav-r ul a:hover {
+        border-color: #00a6eb;
+    }
+    
+    .nav-r ul a i:hover {
+        color: #00a6eb;
+    }
+    
+    .nav-r ul a {
+        border: 1px solid rgba(128, 128, 128, 0.801);
+        margin: 0 5px;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    .nav-r ul a {
+        color: grey;
+    }
+    
+    .btn a {
+        background-color: #00a6eb;
+        border-color: #00a6eb;
+    }
+    
+    .btn i {
+        color: white;
+    }
+    /* section-info*/
+    
+    .section-info {
+        height: 40px;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid #ddd;
+        align-items: center;
+        .contact {
+            .icon {
+                font-size: 15px;
+                padding-right: 5px;
+                color: #50d8af;
+            }
+            a {
+                padding-right: 5px;
+                color: #555;
+                border-right: 1px solid rgba(128, 128, 128, 0.144);
+                padding-right: 10px;
+                text-decoration: none;
+                transition: all 1s;
+                &:hover {
+                    color: #50d8af;
+                }
+            }
+        }
+        .icons {
+            a {
+                text-decoration: none;
+                color: #555;
+                i {
+                    font-size: 15px;
+                    padding: 5px;
+                    border-right: 1px solid #555;
+                    transition: all 1s;
+                }
+                &:hover {
+                    color: #50d8af;
+                    ;
+                }
+            }
+        }
+    }
+    /* section team */
+    
+    .team {
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .navigation-1 {
+            margin-left: 73px;
+            a {
+                text-decoration: none;
+                h1 {
+                    font-size: 53px;
+                    color: #0c2e8a;
+                    .text {
+                        color: #50d8af;
+                    }
+                }
+            }
+        }
+    }
